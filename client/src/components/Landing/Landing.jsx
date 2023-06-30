@@ -5,8 +5,8 @@ import './Landing.css';
 function Landing() {
   return (
     <div id='landing'>
-      <h1 id='lojueguitolanding'>LO JUEGUITO</h1>
-      <Link to='/home'><button id='ingresar'>Ingresar...</button></Link>
+      <h1 id='elcuernolanding'>El Cuerno Grasiento</h1>
+      <Link to='/home'><button id='ingresar'>¡Sírvete un trago!</button></Link>
     </div>
   )
 }

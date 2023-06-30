@@ -1,10 +1,13 @@
 body {
-  background-image: linear-gradient( 135deg, rgba(1, 1, 141, 0.7), rgba(184, 0, 0, 0.7) ), 
-  url("https://ceinaseg.com/wp-content/uploads/2021/09/videogames-controller-1920x1080-1.jpg");
-  background-size: cover;
-  background-attachment: fixed;
+  /* background-image: url("./Media/zyro-image.png"); */
+  /*linear-gradient( 135deg, rgba(1, 1, 141, 0.7), rgba(184, 0, 0, 0.7) ),
+  url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9O3TathqwB74_9C3M068oAL0SlWrIB6BbvaLKZA_SKAsVrQVithREfSkmaOrB8XFmfVc&usqp=CAU");*/
+
+  /* background-size: cover;
+  background-attachment: fixed; */
   text-align: center;
 
+  height: 100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

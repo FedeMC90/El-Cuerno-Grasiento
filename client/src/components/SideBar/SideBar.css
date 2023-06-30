@@ -1,0 +1,21 @@
+#sidebar {
+  align-content: center;
+  background-color: rgba(17, 17, 17, 0.705);;
+  width: 13rem;
+  height: 36.4rem;
+  padding-top: 1rem;
+}
+
+#botonera {
+  margin-top: 5rem;
+}
+
+.boton {
+  width: 10rem;
+  padding: 5px 0;
+  margin: 0.5rem 0;
+}
+
+.boton:hover {
+  cursor: pointer;
+}

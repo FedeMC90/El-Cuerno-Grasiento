@@ -13,6 +13,8 @@ import VideogameCard from "../VideogameCard/VideogameCard";
 import './Home.css';
 import load from '../../Media/Loading.gif';
 import Paginado from "../Paginado/Paginado";
+import SideBar from '../SideBar/SideBar';
+
 
 const Home = () => {
   // Hooks: Con el useSelector me traigo lo que hay en el estado de videogames
@@ -68,35 +70,40 @@ const Home = () => {
   }
 return (
   <div id="home">
-    <div id="orden">
+    <SideBar />
+    {/* <div id="orden">
       <Paginado
         videogamesPerPage={videogamesPerPage}
         videogames={videogames.length}
         paginado={paginado}
       />
-      <button id='limpiar' onClick={(e) => limpiar(e)}>Limpiar</button>
-      <select className="inputorden" defaultValue='ordenar' onChange={e => handleOrder(e)}> {/* Ordenamiento */}
+      <button id='limpiar' onClick={(e) => limpiar(e)}>Limpiar</button> */}
+      {/* Ordenamiento */}
+      {/* <select className="inputorden" defaultValue='ordenar' onChange={e => handleOrder(e)}> 
         <option disabled value='ordenar'>Ordenar</option>
         <option key='atoz' value='atoz'>A-Z</option>
         <option key='ztoa'value='ztoa'>Z-A</option>
         <option key='0to5'value='0to5'>0-5</option>
         <option key='5to0'value='5to0'>5-0</option>
-      </select>
-      <label className="labelorden">Origen: {/* Filtro por origen */}
-      <select className="inputorden" onChange={e => handleFilterOrigin(e)}> {/* Filtro por origen */}        
+      </select> */}
+      {/* Filtro por origen */}
+      {/* <label className="labelorden">Origen: 
+      <select className="inputorden" onChange={e => handleFilterOrigin(e)}>         
         <option key='todos' value='todos'>Todos</option>
         <option key='api' value='api'>API</option>
         <option key='propios' value='propios'>Propios</option>
       </select>
-      </label>
-      <label className="labelorden">Género: {/* Filtro por género */}
+      </label> */}
+      {/* Filtro por género */}
+      {/* <label className="labelorden">Género: 
         <select className="inputorden" onChange={e => handleFilterGenre(e)}>
           <option key='todos' value='todos'>Todos</option>
           {genres.map(e => <option key={e.name} value={e.name}>{e.name}</option>)}          
         </select>
       </label>
-    </div>
-    <div id='videogamecard'>
+    </div> */}
+    
+    {/* <div id='videogamecard'>
     {loading ? <img id="load" src={load} alt="Loading..."/> : 
       currentVideogames && typeof currentVideogames === 'string' ? 
       noHayJuegos() : currentVideogames.map(m => {
@@ -108,7 +115,7 @@ return (
           genres={m.genres}
           background_image={m.background_image}/>
     )})}
-    </div>
+    </div> */}
     
   </div>
 )
